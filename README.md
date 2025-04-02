@@ -2,7 +2,7 @@
 
   <p align="center">
     <a href="https://www.pabloruizponce.com/papers/MixerMDM"><img alt="Project" src="https://img.shields.io/badge/-Project%20Page-lightgrey?logo=Google%20Chrome&color=informational&logoColor=white"></a>
-    <a href="https://arxiv.org/abs/2404.09988"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2404.09988-b31b1b.svg"></a> 
+    <a href="https://arxiv.org/abs/2504.01019"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2504.01019-b31b1b.svg"></a> 
   </p>
   
 <br>
@@ -17,7 +17,7 @@ Generating human motion guided by conditions such as textual descriptions is cha
 
 
 ## 📌 News
-- [2025-04-2] Our paper is available on [arXiv](https://arxiv.org/abs/2404.09988)
+- [2025-04-2] Our paper is available on [arXiv](https://arxiv.org/abs/2504.01019)
 - [2025-02-26] MixerMDM is accepted at CVPR 2025!
 
 ## 📝 TODO List
@@ -31,4 +31,13 @@ Generating human motion guided by conditions such as textual descriptions is cha
 If you find our work helpful, please cite:
 
 ```bibtex
+@misc{ruizponce2025mixermdmlearnablecompositionhuman,
+      title={MixerMDM: Learnable Composition of Human Motion Diffusion Models}, 
+      author={Pablo Ruiz-Ponce and German Barquero and Cristina Palmero and Sergio Escalera and José García-Rodríguez},
+      year={2025},
+      eprint={2504.01019},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.01019}, 
+}
 ```

@@ -2,7 +2,6 @@ import torch
 import clip
 
 from torch import nn
-from models.nets import in2INDiffusion
 from models.utils.cfg_sampler import ClassifierFreeSampleDualMDM, ClassifierFreeSampleModel, ClassifierFreeSampleModelMultiple
 from models.utils.blocks import TransformerBlockDoubleCond
 from models.utils.gaussian_diffusion import LossType, ModelMeanType, ModelVarType, MotionDiffusion, create_named_schedule_sampler, get_named_beta_schedule, space_timesteps

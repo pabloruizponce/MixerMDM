@@ -1,0 +1,12 @@
+checkpoints
+results
+__pycache__
+.idea
+venv
+cache
+eval_model
+data
+wandb
+*.log
+*.zip
+*.mp4

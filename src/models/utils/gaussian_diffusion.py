@@ -19,7 +19,6 @@ import torch as th
 from utils.utils import *
 from models.utils.losses import InterLoss, GeometricLoss
 from utils.alignment import smpl_to_ih, ih_to_smpl, center_motion, align_motions
-from visualization.plot import plot_aitviewer
 
 def create_named_schedule_sampler(name, diffusion):
     """

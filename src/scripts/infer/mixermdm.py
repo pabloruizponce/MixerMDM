@@ -171,10 +171,10 @@ if __name__ == '__main__':
     # Load model checkpoint
     if model_cfg.CHECKPOINT:
         ckpt = torch.load(model_cfg.CHECKPOINT, map_location="cpu")
-        for k in list(ckpt["state_dict"].keys()):
+        for k in list(ckpt.keys()):
             if "model" in k:
-                ckpt["state_dict"][k.replace("model.", "")] = ckpt["state_dict"].pop(k)
-        model.load_state_dict(ckpt["state_dict"], strict=True)
+                ckpt[k.replace("model.", "")] = ckpt.pop(k)
+        model.load_state_dict(ckpt, strict=True)
         print("checkpoint state loaded!")
 
     # Lightning model wrapper for inference
